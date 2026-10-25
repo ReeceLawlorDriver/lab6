@@ -7,7 +7,7 @@ MY_USERNAME=$(gh api user --jq '.login')
 gh issue create -R "$ReeceLawlorDriver/lab6" \
   --title "create helloworld echo file" \
   --body "echo hello Pearse from lab6" \
-  --assignee "$ReeceLawlorDriver" \
+  --assignee "ReeceLawlorDriver" \
   --label "enhancement"
 
 echo "Issue created successfully."
